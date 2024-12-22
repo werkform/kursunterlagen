@@ -1,0 +1,20 @@
+{
+	"meta": {
+		"title": "Example 2 Blueprints",
+		"description": "Beispiel fuer einen Playground mit alten Theme",
+		"author": "werkform"
+	},
+	"preferredVersions": {
+		"php": "8.2",
+		"wp": "6.7",
+		}	
+	"features": {
+		"networking": true
+		},
+	"themes": ["twentynineteen"],
+	"settings": {
+		"blogname": "Playground Beispielseite",
+		"blogdescription": "von werkform gezeigt."
+	},
+	"landingPage": "/wp-admin/",
+}
