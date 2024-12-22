@@ -1,0 +1,17 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"preferredVersions": {
+	"php": "8.2",
+	"wp": "latest",
+	"landingPage": "/",
+	"login": true,
+	"steps": [
+		{
+			"step": "importWordPressFiles",
+			"wordPressFilesZip": {
+				"resource": "url",
+				"url": "https://github.com/werkform/kursunterlagen/blob/main/playground-example1.zip"
+			}
+		}
+	]
+}
