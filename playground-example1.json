@@ -1,25 +1,33 @@
 {
-	"landingPage": "/",
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"meta": {
+		"title": "Example 1 Blueprints",
+		"description": "Beispiel fuer einen Playground mit importierten Daten",
+		"author": "werkform"
+	},
 	"preferredVersions": {
 		"php": "8.2",
-		"wp": "latest",
+		"wp": "6.7",
 		}	
 	"features": {
-		"networking": true		
+		"networking": true
 		},
+	"themes": ["twentynineteen"],
+	"settings": {
+		"blogname": "Playground Beispielseite",
+		"blogdescription": "von werkform gezeigt."
+	},
+	"landingPage": "/wp-admin/",
 	"steps": [
 		{
-		"step": "login",
-		"username": "admin",
-		"password": "password"
-		}
+		"step": "login"
+		},
 		{
 		"step": "importWordPressFiles",
 		"wordPressFilesZip": {
 			"resource": "url",
-			"url": "https://github.com/werkform/kursunterlagen/blob/98edb715329104b488a66e34b9b1551cb8cff601/playground-example1.zip"
+			"url": "https://werkform.at/wp-content/uploads/2024/12/playground-example1.zip"
 			}
 		}
 	]
-}
 }
