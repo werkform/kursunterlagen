@@ -17,7 +17,7 @@
 		"step": "importWordPressFiles",
 		"wordPressFilesZip": {
 			"resource": "url",
-			"url": "https://github.com/werkform/kursunterlagen/blob/main/playground-example1.zip"
+			"url": "https://github.com/werkform/kursunterlagen/blob/98edb715329104b488a66e34b9b1551cb8cff601/playground-example1.zip"
 			}
 		}
 	]
